@@ -1,29 +1,20 @@
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
+document.addEventListener("DOMContentLoaded", function () {
+    // Function to handle form submission
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
 
-    // Get input values
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+        // Get the username and password values
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
 
-    // You should validate inputs here
-
-    // Simulating login authentication
-    if (username === "your_username" && password === "your_password") {
-        // Save user details to localStorage
-        localStorage.setItem("username", username);
-
-        // Redirect to a logged-in page or perform any other action
-        window.location.href = "loggedin.html";
-    } else {
-        // Display error message
-        document.getElementById("error").innerText = "Invalid username or password.";
-    }
+        // You can add your login validation logic here
+        // For simplicity, let's assume the login is successful if both fields are filled
+        if (username && password) {
+            // Redirect to the home page
+            window.location.href = "home.html"; // Change "home.html" to the actual URL of your home page
+        } else {
+            // Display error message if fields are empty
+            document.getElementById("error").innerText = "Please enter both username and password.";
+        }
+    });
 });
-
-// Check if user is logged in on index.html page
-window.onload = function() {
-    var loggedInUser = localStorage.getItem("username");
-    if (loggedInUser) {
-        document.getElementById("welcomeMessage").innerText = "Welcome back, " + loggedInUser + "!";
-    }
-};

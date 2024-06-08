@@ -1,33 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Base Styles */
+.login{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    background-image: url(../images/slider-bg.jpg);
+    justify-content: center;
 }
-
 .login-container {
-    background-color: #fff;
+    margin: 100px;
+    width: 500px;
+    height: 400px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 80%; /* Set initial width */
-    max-width: 400px; /* Set maximum width */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    border-radius: 5px;
 }
 
 input[type="text"],
 input[type="password"],
 button {
-    display: block;
     width: 100%;
+    margin-bottom: 10px;
+    margin-top: 30px;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     box-sizing: border-box;
 }
 
@@ -35,6 +27,7 @@ button {
     background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 3px;
     cursor: pointer;
 }
 
@@ -46,9 +39,18 @@ button:hover {
     color: red;
 }
 
-/* Media query for smaller screens */
+/* Media Queries for Responsive Design */
 @media screen and (max-width: 600px) {
     .login-container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    input[type="text"],
+    input[type="password"],
+    button {
+        font-size: 14px;
     }
 }
