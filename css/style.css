@@ -107,7 +107,8 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   color: #000000;
-  font-size: 24px;
+  font-size: 27px;
+  text-shadow:5px 5px 19px #000000;
   text-transform: uppercase;
 }
 
@@ -257,7 +258,6 @@ a:focus {
   align-items: center;
   position: relative;
 }
-
 .slider_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
