@@ -526,6 +526,7 @@ a:focus {
 }
 
 .product_section {
+  margin-top: 90px;
   background-color: #f5f5f5;
   margin-bottom: 45px;
 }
