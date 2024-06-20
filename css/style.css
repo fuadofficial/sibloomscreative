@@ -108,8 +108,12 @@ a:focus {
   font-weight: bold;
   color: #000000;
   font-size: 27px;
-  text-shadow:5px 5px 19px #000000;
   text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.navbar-brand span:hover{
+  color: #464545;
 }
 
 .custom_nav-container {
