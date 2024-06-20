@@ -85,7 +85,7 @@
     <!-- slider section -->
     <section class="slider_section ">
       <div class="slider_bg_box">
-        <img class="w-100" src="image/back.jpg" alt="">
+        <img class="w-100" style="opacity: 0.8; " src="image/back.jpg" alt="">
       </div>
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -94,10 +94,10 @@
               <div class="row">
                 <div class="col-md-7">
                   <div class="detail-box">
-                    <h1 class="text-dark">
+                    <h1>
                       SIBLOOMS DISIGNS
                     </h1>
-                    <p class="text-dark">
+                    <p >
                       "Discover elegance in every stitch at our shop, where we specialize in Islamic women's prayer
                       cloth dresses. From intricate designs to impeccable tailoring, find your perfect garment for
                       spiritual devotion at SIBLOOMS."
@@ -678,24 +678,16 @@
       <div class="row">
         <div class="col-md-12">
           <div class="form_container">
-            <form action="https://api.web3forms.com/submit" onsubmit=" event.preventDefault();" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
               <input type="hidden" name="access_key" value="7858cda8-1d9a-4ede-aa40-b883d3e41aca">
-              <div>
-                <input type="text" name="name" placeholder="Your Name" required />
-              </div>
-              <div>
-                <input type="number" name="number" placeholder="Phone Number" required />
-              </div>
-              <div>
-                <input type="email" name="email" placeholder="Email" required />
-              </div>
-              <div>
-                <input type="text" name="message" class="message-box" placeholder="Message" required />
-              </div>
+
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="number" name="number" placeholder="Phone Number" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input class="message-box" name="message" placeholder="Message" required></input>
               <div class="btn_box">
-                <button type="submit">
-                  SEND
-                </button>
+                <button type="submit">Submit Form</button>
               </div>
             </form>
           </div>
