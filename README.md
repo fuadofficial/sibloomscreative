@@ -15,7 +15,7 @@ A modern and responsive clothing seller website built using HTML, CSS, and JavaS
 
 
 
-Responsive Design: The website is fully responsive, ensuring a seamless shopping experience on any device.
+Responsive Design: The website is fully responsive, ensuring a seamless shopping experience on any device.🤞
 
 
 
