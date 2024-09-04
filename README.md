@@ -33,7 +33,6 @@ HTML, CSS, and JavaScript: The project is entirely built with these technologies
 
 
 
-
 🛠️ Tech Stack
 
 
