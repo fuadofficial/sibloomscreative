@@ -2,10 +2,7 @@
 
 
 
-
-
 A modern and responsive clothing seller website built using HTML, CSS, and JavaScript. The website features a product display section and a contact form that sends user submissions directly to an email.
-
 
 
 
@@ -20,6 +17,7 @@ Responsive Design: The website is fully responsive, ensuring a seamless shopping
 
 
 Interactive Product Display: Showcases clothing items with details and prices using JavaScript for dynamic interactions.
+
 
 
 
