@@ -1,4 +1,4 @@
-👗 Clothing Seller Website
+# 👗 Clothing Seller Website
 
 
 
@@ -8,40 +8,40 @@ A modern and responsive clothing seller website built using HTML, CSS, and JavaS
 
 
 
-🚀 Features
+## 🚀 Features
 
 
 
-Responsive Design: The website is fully responsive, ensuring a seamless shopping experience on any device.🤞
+**Responsive Design:** The website is fully responsive, ensuring a seamless shopping experience on any device.🤞
 
 
 
-Interactive Product Display: Showcases clothing items with details and prices using JavaScript for dynamic interactions.
-
-
-
-
-Contact Form: Includes a contact section where users can submit their queries or feedback. Upon submission, the data is sent directly to an email.
-
-
-
-HTML, CSS, and JavaScript: The project is entirely built with these technologies, focusing on creating a functional and visually appealing website.
+**Interactive Product Display:** Showcases clothing items with details and prices using JavaScript for dynamic interactions.
 
 
 
 
-
-🛠️ Tech Stack
-
+**Contact Form:** Includes a contact section where users can submit their queries or feedback. Upon submission, the data is sent directly to an email.
 
 
-Frontend: HTML, CSS, JavaScript
+
+**HTML, CSS, and JavaScript:** The project is entirely built with these technologies, focusing on creating a functional and visually appealing website.
 
 
 
 
 
-video:
+## 🛠️ Tech Stack
+
+
+
+**Frontend**:  HTML, CSS, JavaScript
+
+
+
+
+
+**video:**
 
 
 
